@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.32126.317
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPIWithMongoDB", "WebAPIWithMongoDB.csproj", "{D29C5AD3-FE96-44D9-814D-14600C55B79A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserStore.Core", "..\UserStore.Core\UserStore.Core.csproj", "{AE7158D0-8E02-42FC-AF71-AB130207ED41}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D29C5AD3-FE96-44D9-814D-14600C55B79A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D29C5AD3-FE96-44D9-814D-14600C55B79A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D29C5AD3-FE96-44D9-814D-14600C55B79A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE7158D0-8E02-42FC-AF71-AB130207ED41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE7158D0-8E02-42FC-AF71-AB130207ED41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE7158D0-8E02-42FC-AF71-AB130207ED41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE7158D0-8E02-42FC-AF71-AB130207ED41}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

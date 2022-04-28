@@ -16,7 +16,10 @@
       "launchUrl": "swagger",
       "applicationUrl": "http://localhost:5010",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "Database": "MyDB",
+        "Collection": "Users",
+        "ConnectionString": "mongodb://localhost:27017"
       }
     },
     "IIS Express": {
@@ -24,7 +27,10 @@
       "launchBrowser": true,
       "launchUrl": "swagger",
       "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Development"
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "Database": "MyDB",
+        "Collection": "Users",
+        "ConnectionString": "mongodb://localhost:27017"
       }
     }
   }
