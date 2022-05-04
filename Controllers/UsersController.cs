@@ -19,8 +19,28 @@ namespace WebAPIWithMongoDB.Controllers
         {
             return Ok(userService.GetAllUsers());
         }
-          
 
+        [HttpGet("{Id}", Name = "GeUser")]
+        public ActionResult<User> GetUser(int Id)
+        {
+            return Ok(userService.GetUser(Id));
+        }
+
+
+        [HttpPost]
+
+        public ActionResult<User> EditUser(User user)
+        {
+            userService.EditUser(user);
+            return CreatedAtRoute("GetUser", new { Id = user.Id }, user);
+        }
+
+        [HttpDelete("{Id}")]
+        public ActionResult DeleteUser(int id)
+        {
+            userService.DeleteUser(id);
+            return NoContent();
+        }
 
 
     }
